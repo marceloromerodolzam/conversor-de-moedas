@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Conversor de Moeda em JavaScript</title>
+</head>
+<body>
+    <div id="conversor">
+        <label for="valor" Id="lValor">Valor: </label>
+        <input type="number" id="valor">
+        <label for="de" id="lDe">De: </label>
+        <select id="de">
+            <option value="USD">Dólar Americano(USD)</option>
+            <option value="EUR">Euro(EUR)</option>
+            <option value="GBP">Libra Esterlin(GBP)</option>
+            <option value="BRL">Real(BRL)</option>
+        </select>
+        <label for="para" id="lPara">Para:</label>
+        <select id="para">
+            <option value="USD">Dólar Americano (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="GBP">Libra Esterlina (GBP)</option>
+            <option value="BRL">Real(BRL)</option>
+        </select>
+        <button onclick="converter()">Converter</button>
+        <p>Resultado: <p id="result"></p></p>
+    </div>
+
+    <script src="js/JavaScript.js"></script>
+</body>
+</html>
